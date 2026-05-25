@@ -65,7 +65,7 @@ function App() {
   const servingToken = tokens.find(t => t.status === 'serving') || null;
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Digital-Queue-Management-System">
       <div className="min-h-screen relative overflow-hidden text-slate-100">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-sky-600/10 blur-[120px] pointer-events-none"></div>
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-indigo-600/10 blur-[120px] pointer-events-none"></div>
